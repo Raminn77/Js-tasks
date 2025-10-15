@@ -1,10 +1,17 @@
-let a = prompt(`reqem yazin`)
-let b = prompt(`ikinci reqem yazin`)
+let username = "Sara";
+let age = 34;
+let isStudent = false;
+let weight = 58.3;
+let country = "Azərbaycan";
+let isMarried;
+let favoriteColor = null;
+let phoneNumber = "0123456789";
 
-if (Number(a) > Number(b)) {
-    console.log(`a b'den boyukdur`)
-} else if (Number(a) < Number(b)) {
-    console.log(`a b'den kicikdi`)
-} else {
-    console.log(`a ve b beraberdir`)
-} 
+console.log(typeof username)
+console.log(typeof age)
+console.log(typeof isStudent)
+console.log(typeof weight)
+console.log(typeof country)
+console.log(typeof isMarried)
+console.log(typeof favoriteColor)
+console.log(typeof phoneNumber)
