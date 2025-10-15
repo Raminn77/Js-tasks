@@ -7,4 +7,4 @@ if (Number(a) > Number(b)) {
     console.log(`a b'den kicikdi`)
 } else {
     console.log(`a ve b beraberdir`)
-}
+} 
