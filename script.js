@@ -1,8 +1,9 @@
-let a = prompt(`Adinizi yazin`)
-let b = prompt(`yasinizi yazin`)
+let a = prompt("Ad")
+let b = prompt("Soyad")
 
-if (Number(b) > 18) {
-    console.log(`Salam, ${a} siz artiq boyuksunuz `)
-}else{
-    console.log(`Salam, ${a} siz hele kiciksiniz `)
-}
+let c = (a + " " + b).toUpperCase()
+
+console.log(`ad soyad: ${a+" "+b}`)
+console.log(`boyuk herfler: ` + c)
+console.log(`uzunlugu: ${c.length}`)
+console.log(`ilk herf: ${c.charAt(0)} `)
